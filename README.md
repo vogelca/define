@@ -41,7 +41,8 @@ instances of the string `REPO_PATH` with the path to the cloned repository.
 #!/bin/sh
 exec node REPO_PATH/define.js $*
 ```
-Ensure that the above script and the node executable are in the system path.
+Ensure that the above script and the node executable are in the system path,
+and that the script has execute permissions.
 
 # Usage
 
