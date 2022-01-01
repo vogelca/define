@@ -35,7 +35,7 @@ greater. If your system has package management facilities, it is very likely
 that a relevant package exists within the official repositories. Otherwise,
 a copy may be acquired directly from https://nodejs.org.
 
-Create a file called "define" with the content shown below, replacing all
+Create a file called `define` with the content shown below, replacing all
 instances of the string `REPO_PATH` with the path to the cloned repository.
 ```sh
 #!/bin/sh
@@ -47,7 +47,7 @@ Ensure that the above script and the node executable are in the system path.
 
 Invoke the script from any directory with the command `define`, e.g.,
 
-[Example](example.png)
+![Example](example.png)
 
 In the above example, the command-line options `-pe` instruct the output to
 include phonetic descriptions and usage examples for the different parts of
