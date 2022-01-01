@@ -5,8 +5,8 @@ program. Often enough, I find myself requiring the services of a dictionary,
 for which I must temporarily abandon the comfortable familiarity of the shell
 for the browser, the app, or even the book.
 
-I thought to myself: "how convenient it would be to have a shell command for
-fetching definitions". Never wasting any opportunity to reinvent the wheel,
+I thought to myself: "*how convenient it would be to have a shell command for
+fetching definitions*". Never wasting an opportunity to reinvent the wheel,
 I eschewed the package manager and immediately undertook the writing of such
 a program.
 
@@ -51,4 +51,5 @@ Invoke the script from any directory with the command `define`, e.g.,
 
 In the above example, the command-line options `-pe` instruct the output to
 include phonetic descriptions and usage examples for the different parts of
-speech. To obtain a complete list of such options, type `define --help`.
+speech. By default, only the definitions are included. To obtain a complete
+list of such options, type `define --help`.
